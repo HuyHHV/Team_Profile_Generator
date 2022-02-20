@@ -5,10 +5,10 @@
   "main": "index.js",
   "directories": {
     "lib": "lib",
-    "test": "tests"
+    "tests": "tests"
   },
   "scripts": {
-    "test": "john cena! "
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -24,9 +24,8 @@
     "url": "https://github.com/HuyHHV/Team_Profile_Generator/issues"
   },
   "homepage": "https://github.com/HuyHHV/Team_Profile_Generator#readme",
-
   "dependencies": {
-    "inquirer": "^6.3.1",
-    "jest": "^24.8.0"
+    "inquirer": "^6.5.2",
+    "jest": "^27.5.1"
   }
 }
